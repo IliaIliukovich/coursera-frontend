@@ -12,6 +12,12 @@ p {
 	padding: 1em;
 }
 
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .usualBox {
 	padding: 1em;
 	box-sizing: border-box;
