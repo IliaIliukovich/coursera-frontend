@@ -1,20 +1,27 @@
-h1, h2 {
-    text-align: center;
+.navbar {
+    background: #e07b7b;
 }
 
-.container{
-padding: 0;
-margin: 0;
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: #337ab7;
+    font-weight: bold;
 }
 
-.row {
-    margin: 0;
+.navbar-nav>li:hover {
+    background: #ded9d9
 }
 
-.box {
-    padding: 0;
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+h1 {
+    padding-bottom: 1em;
+}
+
 .internalBox {
-    background-color: grey;
+    background-color: #f7eaea;
     padding: 1em;
+    margin-bottom: 30px;
 }
